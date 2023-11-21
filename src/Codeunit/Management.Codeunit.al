@@ -11,9 +11,4 @@ codeunit 50100 "BZ Management"
     begin
         Message('');
     end;
-
-    trigger OnRun()
-    begin
-
-    end;
 }
