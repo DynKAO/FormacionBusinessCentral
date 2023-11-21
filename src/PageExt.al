@@ -5,6 +5,7 @@
 
 pageextension 50101 asdasdCustomerListExt extends "Customer List"
 {
+    Oli
     trigger OnOpenPage();
     begin
         Message('App published: Hello world');
