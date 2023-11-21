@@ -1,15 +1,15 @@
 {
-  "id": "00257006-2091-42bc-a077-fbcead53a0de",
-  "name": "ALProject3",
-  "publisher": "Default publisher",
-  "version": "1.0.0.0",
+  "id": "43cb7fc1-0aab-4f7c-a254-80fb44ca6a2c",
+  "name": "Extension 1",
+  "publisher": "Ane",
+  "version": "1.0.1.20231107",
   "brief": "",
   "description": "",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
   "url": "",
-  "logo": "",
+  "logo": "./res/MicrosoftTeams-image.png",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
@@ -26,7 +26,7 @@
     "includeSourceInSymbolFile": true
   },
   "runtime": "12.0",
-  "features": [
-    "NoImplicitWith", "TranslationFile"
+  "features": ["TranslationFile",
+    "NoImplicitWith"
   ]
 }
