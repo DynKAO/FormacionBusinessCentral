@@ -1,216 +1,258 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="en-US" original="Extension 1">
+  <file datatype="xml" source-language="en-US" target-language="es-ES" original="Extension 1">
     <body>
       <group id="body">
         <trans-unit id="Table 2332840052 - Field 3702373668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Category</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Categoría</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table BZ Beer Category - Field Category - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2332840052 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Código</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table BZ Beer Category - Field Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2332840052 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Descripción</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Table BZ Beer Category - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1627831686 - Control 3702373668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Category</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Categoría</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page BZ Beer Category List - Control Category - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1627831686 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Código</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Código</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page BZ Beer Category List - Control Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1627831686 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Descripción</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Page BZ Beer Category List - Control Description - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Price List</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Lista de precios</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 2901037629" size-unit="char" translate="yes" xml:space="preserve">
           <source>As of %1</source>
+          <target state="translated">A partir de %1</target>
           <note from="Developer" annotates="general" priority="2">%1 - a date</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType AsOfTok</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 2438826717" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">N° de cuenta</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType CompanyInfoBankAccNoCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 1275674192" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bank</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Banco</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType CompanyInfoBankNameCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 2150512197" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fax No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Nº de fax</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType CompanyInfoFaxNoCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 1454106313" size-unit="char" translate="yes" xml:space="preserve">
           <source>Giro No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Nº giro postal</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType CompanyInfoGiroNoCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 2826867220" size-unit="char" translate="yes" xml:space="preserve">
           <source>Phone No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Nº Teléfono</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType CompanyInfoPhoneNoCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 322581705" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Reg. No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">CIF / NIF</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType CompanyInfoVATRegNoCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 3224550582" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excl.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Excl.</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType ExclTok</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 3126769036" size-unit="char" translate="yes" xml:space="preserve">
           <source>Incl.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Incluye</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType InclTok</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 3924074436" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Descripción</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType ItemDescCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 581024604" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">N° de artículo</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType ItemNoCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 3622563723" size-unit="char" translate="yes" xml:space="preserve">
           <source>Minimum Quantity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Cantidad Mínima</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType MinimumQuantityCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 1487444463" size-unit="char" translate="yes" xml:space="preserve">
           <source>You must specify an Assign-to, if the Assign-to Type is different from All Customers.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Debe especificar un Destinatario si el Tipo de destinatario es diferente de Todos los clientes.</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType MissSourceNoErr</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 2971983597" size-unit="char" translate="yes" xml:space="preserve">
           <source>Page %1</source>
+          <target state="translated">Página %1</target>
           <note from="Developer" annotates="general" priority="2">%1 - a page number</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType PageTok</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 372370581" size-unit="char" translate="yes" xml:space="preserve">
           <source>Price List</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Lista de precios</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType PriceListCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 1531874605" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unit of Measure</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Unidad de medida</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType UnitOfMeasureCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - NamedType 859297142" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">VAT</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - NamedType VATTextCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Opciones</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control Options - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 1918011168 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the code for the currency that amounts are shown in.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Especifica el código de la moneda en la que se muestran los importes.</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control Currency.Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 1918011168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Currency Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Código de moneda</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control Currency.Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the period for which the prices apply, such as 10/01/20...12/31/20.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Especifica el periodo para el que se aplican los precios, como 10/01/20...12/31/20.</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Fecha</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control Date - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 960685460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the price calculation handler that is defined for the calculation of sales prices for the selected method.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="translated">Especifica el manejador de cálculo de precios que se define para el cálculo de precios de venta para el método seleccionado.</target>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control Handler - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 960685460 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Price Calculation Handler</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control Handler - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 4132733409 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the price calculation method.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control Method - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 4132733409 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Price Calculation Method</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control Method - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 514434055 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the entity to which the prices are assigned. The options depend on the selection in the Assign-to Type field. If you choose an entity, the price list will be used only for that entity.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control SourceNoCtrl - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 514434055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Assign-to</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control SourceNoCtrl - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 3996861631 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the type of entity to which the price list is assigned. The options are relevant to the entity you are currently viewing.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control SourceType - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Control 3996861631 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Assign-to Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control SourceType - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3535549144 - Action 1627831686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
           <source>Beer Category List</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ Business Manager RC - Action BZ Beer Category List - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2099499066 - Control 2751538362 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Specifies the value of the Balance field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ CustomerList - Control BZ_nombre - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 874164851 - Control 806504799 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Beer Category Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ Item Card - Control Beer Category Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 391677057 - Control 806504799 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
           <source>Beer Category Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ Item List - Control Beer Category Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 1662138295 - Field 528588623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Beer Category Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension BZ Item - Field BZ Beer Category Code - Property Caption</note>
         </trans-unit>
       </group>
