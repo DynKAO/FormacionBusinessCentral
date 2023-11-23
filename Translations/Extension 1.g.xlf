@@ -18,6 +18,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table BZ Beer Category - Field Description - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1122837769 - Method 3121874542 - NamedType 3471102474" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 was not found</source>
+          <note from="Developer" annotates="general" priority="2">%1 Financial Report TableCaption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit BZ Account Schedule Management - Method CopyFinancialReport - NamedType notFoundErr</note>
+        </trans-unit>
         <trans-unit id="Page 1627831686 - Control 3702373668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Category</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -32,6 +37,26 @@
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BZ Beer Category List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1396585337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BZ Select Company - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1396585337 - Control 3997336476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BZ Select Company - Control Company Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1396585337 - Control 3955255924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Financial Report Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BZ Select Company - Control Financial Report Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1396585337 - Control 3955255924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Financial Report Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BZ Select Company - Control Financial Report Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3207115126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Price List</source>
@@ -198,6 +223,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ CustomerList - Control BZ_nombre - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2041582920 - Action 2513651011 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3384004920">
+          <source>Copy Financial Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ Financial Reports - Action BZ Copy Financial Reports - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2041582920 - Action 2513651011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3384004920">
+          <source>Copy Financial Reports</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ Financial Reports - Action BZ Copy Financial Reports - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 874164851 - Control 806504799 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Beer Category Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -208,10 +243,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ Item List - Control Beer Category Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2592827468 - Control 382350945 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3921990236">
+          <source>Others</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ Purchases &amp; Payables Setup - Control BZ Others - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2592827468 - Control 298187079 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3921990236">
+          <source>Specify that the vendor shipment is required</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ Purchases &amp; Payables Setup - Control BZ Vendor Shipment Required - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1662138295 - Field 528588623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Beer Category Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension BZ Item - Field BZ Beer Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2592827468 - Field 298187079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3921990236">
+          <source>Vendor Order Required</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension BZ Purchases &amp; Payables Setup - Field BZ Vendor Shipment Required - Property Caption</note>
         </trans-unit>
       </group>
     </body>
