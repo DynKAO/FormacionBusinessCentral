@@ -13,7 +13,7 @@ pageextension 50105 "BZ Financial Reports" extends "Financial Reports"
                 Image = InsuranceRegisters;
                 Promoted = true;
                 PromotedCategory = Category4;
-
+                //TODO No vemos correctamente la acción
                 trigger OnAction()
                 var
                     AccScheduleMgt: Codeunit "BZ Account Schedule Management";

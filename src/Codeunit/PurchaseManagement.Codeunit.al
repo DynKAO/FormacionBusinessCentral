@@ -24,7 +24,7 @@ codeunit 50100 "BZ Purchase Management"
         PurchasesPayablesSetup: Record "Purchases & Payables Setup";
     begin
         if PurchasesPayablesSetup.Get() and PurchasesPayablesSetup."BZ Vendor Shipment Required" then
-            PurchaseHeader.TestField("Vendor Shipment No.");
+            PurchaseHeader.TestField("Vendor Shipment No.");//TODO DEBUG no funciona
     end;
 
     [TryFunction]

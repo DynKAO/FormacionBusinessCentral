@@ -14,7 +14,7 @@ codeunit 50101 "BZ Account Schedule Management"
         selectCompany.SetFinancialReportName(FinancialReportCode);
         if selectCompany.RunModal() = Action::OK then begin
             selectCompany.GetValues(newFinancialReport, companySelected);
-            Message('Esquema ' + newFinancialReport + ' en empresa ' + companySelected);
+            Message('Esquema ' + newFinancialReport + ' en empresa ' + companySelected); //TODO SEGUIR
         end;
 
 
