@@ -213,6 +213,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report BZ Item Price List - Control SourceType - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3535549144 - Action 1627831686 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
+          <source>Open the beer category list page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ Business Manager RC - Action BZ Beer Category List - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3535549144 - Action 1627831686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2458191494">
           <source>Beer Category List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -224,7 +229,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ CustomerList - Control BZ_nombre - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2041582920 - Action 2513651011 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3384004920">
-          <source>Copy Financial Reports</source>
+          <source>Create a copy of the current financial report.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension BZ Financial Reports - Action BZ Copy Financial Reports - Property ToolTip</note>
         </trans-unit>

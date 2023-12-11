@@ -2,7 +2,7 @@
   "id": "43cb7fc1-0aab-4f7c-a254-80fb44ca6a2c",
   "name": "Extension 1",
   "publisher": "Ane",
-  "version": "1.0.3.20231211",
+  "version": "1.0.4.20231211",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -12,8 +12,8 @@
   "logo": "./res/MicrosoftTeams-image.png",
   "dependencies": [],
   "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "23.0.0.0",
+  "platform": "19.0.0.0",
+  "application": "19.0.0.0",
   "idRanges": [
     {
       "from": 50100,
@@ -28,5 +28,6 @@
   "runtime": "12.0",
   "features": ["TranslationFile",
     "NoImplicitWith"
-  ]
+  ],
+  "preprocessorSymbols": []
 }

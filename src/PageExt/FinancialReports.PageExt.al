@@ -1,19 +1,25 @@
+#if UNTIL17
+#else
+#if onprem
+pageextension 7190105 "BZ Financial Reports" extends "Financial Reports"
+#else
 pageextension 50105 "BZ Financial Reports" extends "Financial Reports"
+#endif
 {
     actions
     {
-        addbefore(EditColumnGroup)
+        addbefore(CopyFinancialReport)
         {
             action("BZ Copy Financial Reports")
             {
                 ApplicationArea = All;
                 Caption = 'Copy Financial Reports';
-                ToolTip = 'Copy Financial Reports';
+                Promoted = true;
+                PromotedCategory = Process;
+                ToolTip = 'Create a copy of the current financial report.';
                 Ellipsis = true;
                 Image = InsuranceRegisters;
-                Promoted = true;
-                PromotedCategory = Category4;
-                //TODO No vemos correctamente la acción
+
                 trigger OnAction()
                 var
                     AccScheduleMgt: Codeunit "BZ Account Schedule Management";
@@ -24,3 +30,4 @@ pageextension 50105 "BZ Financial Reports" extends "Financial Reports"
         }
     }
 }
+#endif

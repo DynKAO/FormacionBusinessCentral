@@ -23,7 +23,6 @@ page 50101 "BZ Select Company"
                     Caption = 'Financial Report Name';
                     ToolTip = 'Financial Report Name';
 
-                    //TODO No se puede editar el nombre del esquema
                     trigger OnDrillDown()
                     var
                         FinancialReport: Record "Financial Report";
