@@ -11,6 +11,7 @@ pageextension 50103 "BZ Business Manager RC" extends "Business Manager Role Cent
                 Caption = 'Beer Category List';
                 Image = SetupList;
                 RunObject = page "BZ Beer Category List";
+                ToolTip = 'Open the beer category list page';
             }
         }
     }

@@ -1,3 +1,10 @@
 {
-    "name": "Reglaspropias"
+    "name": "Reglaspropias",
+    "rules": [
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "No consigo quitar el error"
+        }
+    ]
 }

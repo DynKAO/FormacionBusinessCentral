@@ -27,13 +27,13 @@ codeunit 50100 "BZ Purchase Management"
             PurchaseHeader.TestField("Vendor Shipment No.");//TODO DEBUG no funciona
     end;
 
-    [TryFunction]
-    local procedure MyProcedure()
-    var
-        purchHeader: record "Purchase Header";
-    begin
-        if purchHeader.GET() then;
+    // [TryFunction]
+    // local procedure MyProcedure()
+    // var
+    //     purchHeader: record "Purchase Header";
+    // begin
+    //     if purchHeader.GET() then;
 
-        // IsolatedStorage.Set('#KAO_001', purchHeader.GetFilters());
-    end;
+    //     // IsolatedStorage.Set('#KAO_001', purchHeader.GetFilters());
+    // end;
 }
