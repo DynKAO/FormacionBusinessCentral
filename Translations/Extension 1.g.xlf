@@ -23,6 +23,16 @@
           <note from="Developer" annotates="general" priority="2">%1 Financial Report TableCaption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit BZ Account Schedule Management - Method CopyFinancialReport - NamedType notFoundErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2297833430 - Method 3915544759 - NamedType 3779895200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The journal lines were successfully posted. The transaction no. is %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = GLEntry.Transaction No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit BZ Journal Management - Method c231_OnBeforeShowPostResultMessage - NamedType Text003Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2297833430 - Method 3915544759 - NamedType 3140410629" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The journal lines were successfully posted. You are now in the %1 journal. The transaction no. is %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = GenJnlLine."Journal Batch Name", %2 = GLEntry.Transaction No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit BZ Journal Management - Method c231_OnBeforeShowPostResultMessage - NamedType Text004Lbl</note>
+        </trans-unit>
         <trans-unit id="Page 1627831686 - Control 3702373668 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Category</source>
           <note from="Developer" annotates="general" priority="2"></note>
