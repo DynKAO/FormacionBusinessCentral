@@ -19,7 +19,7 @@ codeunit 50101 "BZ Account Schedule Management"
         end;
     end;
 
-    local procedure CopyAccountSchedule(pCompanySelected: Text[30]; pFinancialReportCode: Code[10]; pNewFinancialReport: Code[10])
+    local procedure CopyAccountSchedule(pCompanySelected: Text[30]; pSourceFinancialReportCode: Code[10]; pNewFinancialReport: Code[10])
     var
 #if UNTIL21
         sourceAccSchName: Record "Acc. Schedule Name";
@@ -39,18 +39,49 @@ codeunit 50101 "BZ Account Schedule Management"
     begin
         if pNewFinancialReport = '' then exit;
 
-        // if pCompanySelected <> '' then begin
-        //     sourceAccSchLine.ChangeCompany(pCompanySelected);
-        //     destAccSchLine.ChangeCompany(pCompanySelected);
-        //     sourceColumnLayout.ChangeCompany(pCompanySelected);
-        //     destColumnLayout.ChangeCompany(pCompanySelected);
-        //     sourceColumnLayoutName.ChangeCompany(pCompanySelected);
-        //     destColumnLayoutName.ChangeCompany(pCompanySelected);
-        //     sourceAccSchName.ChangeCompany(pCompanySelected);
-        //     destAccSchName.ChangeCompany(pCompanySelected);
-        // end;
+        if pCompanySelected <> '' then begin
+            destAccSchLine.ChangeCompany(pCompanySelected);
+            destColumnLayout.ChangeCompany(pCompanySelected);
+            destColumnLayoutName.ChangeCompany(pCompanySelected);
+            destAccSchName.ChangeCompany(pCompanySelected);
+        end;
+        if sourceAccSchName.Get(pSourceFinancialReportCode) and (sourceAccSchName."Financial Report Column Group" <> '') then
+            if not destColumnLayoutName.Get(sourceAccSchName."Financial Report Column Group") then begin
+                if sourceColumnLayoutName.Get(sourceAccSchName."Financial Report Column Group") then;
+                destColumnLayoutName.Init();
+                destColumnLayoutName.Copy(sourceColumnLayoutName);
+                destColumnLayoutName.Insert();
+                destColumnLayout.Reset();
+                destColumnLayout.SetRange("Column Layout Name", sourceAccSchName."Financial Report Column Group");
+                if destColumnLayout.IsEmpty then begin
+                    sourceColumnLayout.Reset();
+                    sourceColumnLayout.SetRange("Column Layout Name", sourceAccSchName."Financial Report Column Group");
+                    if sourceColumnLayout.FindSet() then
+                        repeat
+                            destColumnLayout.Init();
+                            destColumnLayout.Copy(sourceColumnLayout);
+                            destColumnLayout.Insert();
+                        until sourceColumnLayout.Next() = 0;
+                end;
+            end;
+        if not destAccSchName.get(pNewFinancialReport) then begin
+            destAccSchName.Init();
+            destAccSchName.TransferFields(sourceAccSchName, false);
+            destAccSchName.Name := pNewFinancialReport;
+            destAccSchName.Insert();
 
-
-
+            sourceAccSchLine.Reset();
+            sourceAccSchLine.SetRange("Schedule Name", pNewFinancialReport);
+            if sourceAccSchLine.FindSet() then
+                repeat
+                    if not destAccSchLine.get(pNewFinancialReport, sourceAccSchLine."Line No.") then begin
+                        destAccSchLine.Init();
+                        destAccSchLine.TransferFields(sourceAccSchLine, false);
+                        destAccSchLine."Schedule Name" := pNewFinancialReport;
+                        destAccSchLine."Line No." := sourceAccSchLine."Line No.";
+                        destAccSchLine.Insert();
+                    end;
+                until sourceAccSchLine.Next() = 0;
+        end;
     end;
 }
